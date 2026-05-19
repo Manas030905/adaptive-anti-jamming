@@ -19,7 +19,7 @@ class RLSFilter:
                               g(n) = gain vector
     """
     
-    def __init__(self, filter_order=64, lambda_param=0.99, delta=1.0, eps=1e-8):
+    def __init__(self, filter_order=16, lambda_param=0.95, delta=1.0, eps=1e-8):
         """
         Initialize RLS filter.
         

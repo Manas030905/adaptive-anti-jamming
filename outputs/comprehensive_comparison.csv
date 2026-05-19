@@ -1,0 +1,10 @@
+Scenario,Jammer,Order,Input_SNR,LMS_SNR,LMS_MSE_Red,NLMS_SNR,NLMS_MSE_Red,RLS_SNR,RLS_MSE_Red
+Tone: Conservative (Order=16),tone,16,9.30,-5.26,-236.0%,-8.12,-548.0%,1.79,33.7%
+Tone: Moderate (Order=32),tone,32,9.28,-7.74,-494.1%,-8.50,-607.5%,-9.01,-696.1%
+"Tone: Aggressive RLS (Order=16, λ=0.85)",tone,16,9.27,-5.20,-231.4%,-8.03,-535.2%,-11.83,-1425.3%
+Noise: Standard (Order=32),noise,32,12.81,-6.75,-373.4%,-8.98,-690.9%,-6.42,-338.9%
+"Noise: RLS Optimized (Order=24, λ=0.90)",noise,24,12.84,-5.60,-262.8%,-7.89,-514.9%,-15.14,-3164.6%
+Sweep: Standard (Order=32),sweep,32,6.45,-5.64,-266.8%,-6.33,-329.7%,-0.02,-0.5%
+"Sweep: NLMS Optimized (Order=32, μ=0.6)",sweep,32,6.45,-5.65,-266.9%,-6.49,-346.1%,0.03,0.6%
+"Low SNR (5dB, Tone, Order=24)",tone,24,3.93,-4.31,-170.0%,-4.21,-163.8%,-9.42,-775.5%
+"Low SNR (5dB, Noise, Order=24)",noise,24,4.80,-2.76,-88.6%,-3.16,-107.2%,-8.72,-644.8%

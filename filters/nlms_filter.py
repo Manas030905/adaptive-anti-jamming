@@ -17,7 +17,7 @@ class NLMSFilter:
     Update rule: w(n+1) = w(n) + (mu / (||x||^2 + eps)) * e(n) * x(n)
     """
     
-    def __init__(self, filter_order=64, mu=0.5, eps=1e-8):
+    def __init__(self, filter_order=64, mu=0.01, eps=1e-8):
         """
         Initialize NLMS filter.
         
